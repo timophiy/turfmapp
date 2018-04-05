@@ -1,0 +1,22 @@
+.seekful-col {
+  padding: {
+    left: 10px;
+    right: 10px;
+  }
+}
+@media only screen and (min-width: 1300px) {
+  .container {
+    width: 1200px;
+    padding: {
+      left: 10px;
+      right: 10px;
+    }
+
+    > .row {
+      margin: {
+        left: -10px;
+        right: -10px;
+      };
+    }
+  }
+}

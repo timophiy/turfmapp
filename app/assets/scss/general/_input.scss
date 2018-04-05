@@ -1,0 +1,57 @@
+.seekful-input-text {
+  color: $black;
+  border: 1px solid $dark-gray;
+  padding: 4px 10px;
+  background-color: white;
+  transition: 0.3s;
+  cursor: text;
+
+  &:hover {
+    border: 1px solid lighten($primary-dark,3%);
+  }
+
+  &:focus,
+  &:active {
+    border: 1px solid darken($primary-dark,7%);
+  }
+
+  &:disabled {
+    color: $dark-gray;
+    background-color: $gray;
+    cursor: not-allowed;
+    border: 1px solid $dark-gray
+  }
+}
+
+.input-row {
+  &-error {
+    position: absolute;
+    right: 0;
+    top: 60px;
+    color: $red;
+  }
+  &-success {
+    position: absolute;
+    right: 0;
+    top: 60px;
+    color: #9b9b9b;
+  }
+
+  &-invalid {
+    label {
+      color: $red;
+    }
+
+    input {
+      border-color: $red;
+    }
+
+    select {
+      border-color: $red;
+    }
+  }
+}
+
+input {
+  outline: none;
+}

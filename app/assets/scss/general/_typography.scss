@@ -1,0 +1,54 @@
+.btn,
+.h1,
+.h2,
+.h3,
+.h4,
+a,
+h1,
+h2,
+h3,
+h4,
+p,
+small,
+span {
+  font-family: ($main-font, 'sans-serif');
+}
+
+.h1,
+h1 {
+  font: {
+    weight: 700;
+    size: 25px;
+  }
+}
+
+.h2,
+h2 {
+  font: {
+    weight: 300;
+    size: 16px;
+  }
+}
+
+.h3,
+h3 {
+  font: {
+    weight: 700;
+    size: 16px;
+  }
+}
+
+.h4,
+h4 {
+  font: {
+    weight: 700;
+    size: 13px;
+  }
+}
+
+p {
+  font: {
+    weight: 400;
+    size: 13px;
+  }
+}
